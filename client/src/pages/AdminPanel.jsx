@@ -6,7 +6,7 @@ function AdminPanel({ token }) {
 
   useEffect(() => {
     const fetchMessages = async () => {
-      const res = await fetch('http://localhost:5000/api/contact', {
+      const res = await fetch('https://khushi-saini-portfolio.onrender.com/api/contact', {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (res.ok) {
