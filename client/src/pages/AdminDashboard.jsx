@@ -43,7 +43,7 @@ const AdminDashboard = ({ token, onLogout }) => {
     if (!window.confirm("Are you sure you want to delete this contact?")) return;
 
     try {
-      const res = await fetch(`http://localhost:5000/api/contact/${id}`, {
+      const res = await fetch(`https://khushi-saini-portfolio.onrender.com/api/contact/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
