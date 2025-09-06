@@ -17,7 +17,7 @@ const AdminDashboard = ({ token, onLogout }) => {
     try {
       setLoading(true);
       const res = await fetch(
-        `http://localhost:5000/api/contact?page=${pageNumber}&limit=${ITEMS_PER_PAGE}&search=${search}`,
+        `https://khushi-saini-portfolio.onrender.com/api/contact?page=${pageNumber}&limit=${ITEMS_PER_PAGE}&search=${search}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
