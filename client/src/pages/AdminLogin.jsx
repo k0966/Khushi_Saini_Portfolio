@@ -44,7 +44,7 @@ const AdminLogin = ({ setToken }) => {
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "50px auto", padding: "20px" }}>
+    <div style={{ maxWidth: "400px", margin: "150px auto", padding: "20px" }}>
       <h2>Admin Login</h2>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "15px" }}>
