@@ -9,7 +9,7 @@ function Navbar() {
           to="/" 
           className="font-black text-2xl bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent hover:from-cyan-300 hover:to-purple-300 transition-all duration-300"
         >
-          Khushi Saini
+          Hemank Kumar
         </Link>
         <div className="flex gap-6 items-center">
           <Link 

@@ -25,7 +25,7 @@ function Footer() {
     {
       icon: "https://images.seeklogo.com/logo-png/38/1/gmail-new-2020-logo-png_seeklogo-389043.png",
       color: "from-pink-500 to-pink-600",
-      href: "mailto:k09668422@gmail.com",
+      href: "mailto:hemank.fsu@gmail.com",
       label: "Gmail",
     },
   ];
@@ -85,8 +85,7 @@ function Footer() {
           className="border-t border-white/10 pt-8"
         >
           <p className="text-gray-500 mb-4">
-            © {currentYear} Made by <span className="text-cyan-400 mx-1">Khushi.</span> Crafted with
-            <span className="text-red-400 animate-pulse mx-1">❤️</span>
+            © {currentYear} Made by <span className="text-cyan-400 mx-1">Hemank kumar.</span>
             
           </p>
           <p className="text-sm text-gray-600 italic">

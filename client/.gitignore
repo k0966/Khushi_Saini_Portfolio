@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+.babel.config.js
+jest.config.js
+setupTest.js
+ode_modules/
+dist/
+build/

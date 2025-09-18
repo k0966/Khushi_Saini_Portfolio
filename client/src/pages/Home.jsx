@@ -13,8 +13,8 @@ function Home() {
 
   const projects = [
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio built with MERN stack featuring dark mode, animations, and admin panel.",
+      title: "Ecommerce Website",
+      description: "A modern, responsive Ecommerce built with MERN stack featuring dark mode, animations, and admin panel.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
       github: "https://github.com/yourusername/mern-portfolio",
       demo: "https://your-portfolio.netlify.app",
@@ -76,7 +76,7 @@ function Home() {
         >
           <div className="relative mb-8">
             <img 
-              src="https://img.freepik.com/premium-photo/female-developer-background_665280-9646.jpg?w=1480" 
+              src="https://img6.arthub.ai/64a007fc-a355.webp" 
               alt="Khushi - Full Stack Developer" 
               className="w-40 h-40 rounded-full shadow-2xl border-4 border-white/20 backdrop-blur-sm mx-auto"
             />
@@ -91,7 +91,7 @@ function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            Khushi Saini
+            Hemank kumar
           </motion.h1>
 
           <motion.h2 
@@ -384,7 +384,7 @@ function Home() {
                 <Mail className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold mb-2">Email</h3>
-              <p className="text-gray-600 dark:text-gray-300">khushi@example.com</p>
+              <p className="text-gray-600 dark:text-gray-300">hemank.fsu@gmail.com</p>
             </motion.div>
             
             <motion.div className="text-center" variants={fadeInUp}>

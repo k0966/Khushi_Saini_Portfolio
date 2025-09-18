@@ -5,8 +5,8 @@ require('dotenv').config();
 
 async function createAdmin() {
   await mongoose.connect(process.env.MONGODB_URI);
-  const username = 'SainiKhushi_admin';
-  const password = 'Khushi@123';
+  const username = 'Hemankkumar_admin';
+  const password = 'hemank2132@12';
   const hash = await bcrypt.hash(password, 10);
 
   const exists = await User.findOne({ username });

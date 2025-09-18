@@ -1,1 +1,5 @@
 seedAdmin.js
+.env
+ode_modules/
+dist/
+build/

@@ -15,7 +15,7 @@ function Contact() {
     setStatus('Sending...');
     
     try {
-      const res = await fetch('https://khushi-saini-portfolio.onrender.com/api/contact', {
+      const res = await fetch('http://localhost:5000/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
